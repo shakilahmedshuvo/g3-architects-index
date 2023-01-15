@@ -138,3 +138,51 @@ nav ul {
     color: #FFFFFF;
     margin-top: 20px;
 }
+
+/* Features Section and styles */
+.feature-coantiner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+.feature-main-title {
+    border-left: 5px solid #FF900E;
+    font-weight: 900;
+    font-size: 30px;
+    padding-left: 22px;
+}
+
+.feature-info p {
+    color: #727272;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.feature-img {
+    width: 450px;
+    height: auto;
+}
+
+.feature-btn {
+    width: 240px;
+    height: 135px;
+    font-weight: 700;
+    font-size: 45px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 95px;
+    right: 45px;
+}
+
+.btn-small-text {
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+}
