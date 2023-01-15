@@ -5,7 +5,8 @@
     margin: 0;
 }
 
-body,html {
+body,
+html {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -77,4 +78,40 @@ nav ul {
     height: auto;
     width: 1200px;
     margin-bottom: 60px;
+}
+
+/*  Quick list section and picture styles */
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 25px;
+}
+
+.team-img>img {
+    width: 200px;
+    height: 200px;
+}
+
+.team-description h1 {
+    color: #727272
+}
+
+.team-description b {
+    color: #131313;
+}
+
+.team-description span {
+    color: #FF900E;
+}
+
+.team-description-btn {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #FF900E;
+    color: #FFFFFF;
 }
