@@ -235,6 +235,13 @@ nav ul {
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 35px;
+    transition: transform 1s ease-out 0.2s;
+}
+
+.fact-icon-box:hover {
+    transform: rotate(360deg);
+    background-color: skyblue;
+    border-color: #131313;
 }
 
 .fact-icon-box img {
