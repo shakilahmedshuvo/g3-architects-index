@@ -208,9 +208,52 @@ nav ul {
     bottom: 20px;
 }
 
-/* --------- some fact section styles ------- */
-.fact-section {
-    
+/* --------- some fact and icons section styles ------- */
+.fact-section h1 {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 35px;
+    position: relative;
+    left: 145px;
 }
 
-.fact-pera {}
+.fact-pera {
+    color: #727272;
+    font-weight: 200;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    left: 145px;
+    margin-bottom: 95px;
+}
+
+.fact-info {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.fact-icon-box {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 35px;
+}
+
+.fact-icon-box img {
+    width: 35px;
+    height: 35px;
+}
+
+.fact-icon-box h2 {
+    color: #424242;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.fact-icon-box p {
+    color: #727272;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 4px;
+}
