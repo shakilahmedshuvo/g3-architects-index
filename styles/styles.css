@@ -81,6 +81,12 @@ nav ul {
 }
 
 /*  Quick list section and picture styles */
+.team-text-coantiner {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
 .team-img {
     display: grid;
     grid-template-columns: repeat(2, 0fr);
@@ -92,8 +98,24 @@ nav ul {
     height: 200px;
 }
 
+.team-description {
+    text-align: start;
+    position: relative;
+    left: 70px;
+    top: 75px;
+}
+
 .team-description h1 {
-    color: #727272
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.team-description p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .team-description b {
@@ -110,8 +132,9 @@ nav ul {
     padding: 10px;
     width: 150px;
     height: 50px;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 15px;
     background-color: #FF900E;
     color: #FFFFFF;
+    margin-top: 20px;
 }
