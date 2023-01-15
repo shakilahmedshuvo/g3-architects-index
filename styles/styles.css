@@ -157,8 +157,27 @@ nav ul {
     color: #727272;
     font-weight: 200;
     font-size: 14px;
-    margin-top: 30px;
-    margin-bottom: 18px;
+    margin-top: 20px;
+    /* margin-top: 5px;
+    margin-bottom: 2px; */
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.feature-info-section {
+    position: relative;
+    top: 35px;
+    left: 35px;
+}
+
+.future-box {
+    background-color: rgb(250, 250, 249);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .feature-img {
@@ -188,3 +207,10 @@ nav ul {
     position: relative;
     bottom: 20px;
 }
+
+/* --------- some fact section styles ------- */
+.fact-section {
+    
+}
+
+.fact-pera {}
