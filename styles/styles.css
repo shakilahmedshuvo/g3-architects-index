@@ -240,7 +240,7 @@ nav ul {
 
 .fact-icon-box:hover {
     transform: rotate(360deg);
-    background-color: skyblue;
+    background-color:lightsteelblue;
     border-color: #131313;
 }
 
