@@ -261,6 +261,7 @@ nav ul {
 /*---------------- Our Sponspors styles ----------------*/
 .spon-title {
     margin-top: 125px;
+    text-align: center;
 
 }
 
@@ -270,19 +271,33 @@ nav ul {
     margin-bottom: 22px;
 }
 
-.spon-title h1,
+/* .spon-title h1,
 p {
     text-align: center;
-}
+}  */
 
 .spon-pera {
     color: #727272;
     font-weight: 200;
     font-size: 14px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
-.spon-img{
-    text-align:center;
-    margin-right: 5px;
-    
+
+.spon-img {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    color: #424242;
 }
